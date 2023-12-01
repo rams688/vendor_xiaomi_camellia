@@ -1098,6 +1098,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libcares_naptr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcares_naptr.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libcarrierconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcarrierconfig.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libccci_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libccci_util.so \
+    vendor/xiaomi/camellia/proprietary/vendor/lib64/libcodec2_mtk_c2store.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_mtk_c2store.so \
+    vendor/xiaomi/camellia/proprietary/vendor/lib64/libcodec2_mtk_vdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_mtk_vdec.so \
+    vendor/xiaomi/camellia/proprietary/vendor/lib64/libcodec2_mtk_venc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_mtk_venc.so \
+    vendor/xiaomi/camellia/proprietary/vendor/lib64/libcodec2_vpp_qt_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_vpp_qt_plugin.so \
+    vendor/xiaomi/camellia/proprietary/vendor/lib64/libcodec2_vpp_rs_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_vpp_rs_plugin.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libcomposer_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcomposer_ext.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libconnfem.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libconnfem.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libcustom_nvram.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcustom_nvram.so \
@@ -1118,6 +1123,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libfile_op.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfile_op.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libfingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfingerprint.default.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libforkexecwrap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libforkexecwrap.so \
+    vendor/xiaomi/camellia/proprietary/vendor/lib64/libformatter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libformatter.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libgamehdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgamehdr.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libged.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libged.so \
     vendor/xiaomi/camellia/proprietary/vendor/lib64/libgf_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_ca.so \
