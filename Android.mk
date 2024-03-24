@@ -6,4 +6,16 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),camellia)
 
+$(call add-radio-file-sha1-checked,radio/dpm.img,583371e83a550112ec7bb15cf898c9fbedb76ec7)
+$(call add-radio-file-sha1-checked,radio/gz.img,dc52193e15d0f3783cf356222fe7b5aa14437d4d)
+$(call add-radio-file-sha1-checked,radio/lk.img,db21ed4bf726189550d5a70588eda2bdc39028c1)
+$(call add-radio-file-sha1-checked,radio/mcupm.img,e5061c53534a5f3e58985140136e68ee3acb5807)
+$(call add-radio-file-sha1-checked,radio/md1img.img,21f044f04568554e99372ce80276f4b0a8657de2)
+$(call add-radio-file-sha1-checked,radio/pi_img.img,0bf8b78d7fe538824fefa5b935939f75f76c8eaa)
+$(call add-radio-file-sha1-checked,radio/preloader_raw.img,bd2161d8004d38d16a4c55b0d501211a5a8253a2)
+$(call add-radio-file-sha1-checked,radio/scp.img,bc50af4677e894a394ed76eb14cae7e58872e0db)
+$(call add-radio-file-sha1-checked,radio/spmfw.img,6f420802829821eb810753cc7333924f3d124839)
+$(call add-radio-file-sha1-checked,radio/sspm.img,1fd1182d2d7cb8592f8a8489b78563483a28af07)
+$(call add-radio-file-sha1-checked,radio/tee.img,fcdac4969f10e78efaa19609e69d647747b2ac13)
+
 endif
